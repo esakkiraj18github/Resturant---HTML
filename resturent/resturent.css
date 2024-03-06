@@ -1,0 +1,424 @@
+body{
+	background-image: url('slide01.jpg');
+	height: 100vh;
+	width: 100%;
+	background-repeat:no-repeat ;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+.header{
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	text-transform: capitalize;
+	font-size: 1.5em;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding: 5px;
+	position: relative;
+
+}
+/*.header:hover{
+	position: fixed;
+	top: 0;
+	background-color: white;
+}
+*/
+.logo >img{
+	margin-left: 20px;
+}
+.container > ul{
+    display: flex;
+}
+.container > ul > li{
+	padding: 20px;
+	list-style: none;
+	margin-right: 30px;
+}
+.container > ul >li:hover{
+	color: orangered;
+	list-style: disc;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.main{
+	display: flex;
+}
+.imagegallery{
+	margin-top: 50px;
+}
+.image-01{
+	margin-left: 10px;
+}
+.content{
+/*	margin-left: 10px;*/
+	text-transform: capitalize;
+}
+.content >h4{
+	font-size: 2.8em;
+	color: orangered;
+	font-family: 'Brush Script MT', cursive;
+	position: absolute;
+	top: 124.74px;
+	left:445.646px ;
+	margin-left: 110px;
+	font-weight: bold;
+	margin-bottom: 50px;
+/*	line-height: 44px;*/
+	word-spacing: 5em;
+}
+.content >h2{
+	font-size: 2.3em;
+	color: #ccc;
+	font-family: serif;
+	position: absolute;
+	top: 215.552px;
+	left: 379.885px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	
+}
+.content > h3{
+	font-size: 1.3em;
+	color: whitesmoke;
+	bottom: 100.678px;
+	left: 420.56px;
+	margin-top: 120px;
+	margin-left: 200px;
+}
+.content >ol >li{
+	font-size: 1em;
+	color: darkgray;
+	margin-top:0px ;
+	margin-left: 0px;
+	list-style: none;
+	font-weight: bolder;
+	margin-left: 170px;
+
+}
+/*.pic{
+	margin: 0 6em 1.9em 0;
+
+}*/
+.text{
+	margin-left: 60px;
+	margin-top: 60px;
+}
+.content1{
+ position: absolute;
+ top: 230px;
+ right: 180px;
+ margin-left: 50px;
+}
+.one-pic{
+	margin-left: 50px;
+	margin-top: 0px;
+}
+.three-pic{
+/*	margin-right: 50px;*/
+}
+
+.main2{
+
+      position: absolute;
+      top: 200px;
+      right: 20px;
+    
+
+
+   /*margin-left: 0px;
+   margin-top: 30px;*/
+}
+.content2{
+	display: table;
+	display: flex;
+	
+	justify-content: space-around;
+/*	margin-top: 50px;*/
+	background-color: #F0F8FF;
+
+}
+.section1{
+	margin-top: 80px;
+}
+.one{
+	border: solid black 12px;
+	width: 40%;
+	height: 60%;
+	margin-top: 70px;
+
+}
+.one >h1{
+	font-size: 2em;
+	color: orangered;
+	font-family:  Copperplate, Papyrus, fantasy;
+	text-transform: capitalize;
+	text-align: center;
+}
+.one >h2{
+	font-size: 2em;
+	color: black;
+	font-family:  Copperplate, Papyrus, fantasy;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: bold;
+}
+.one > p{
+	 align-items: justify;
+	 text-align: center;
+	 font-size: 1.4em;
+	 /*padding-left: 10px ;
+	 padding-right: 10px;*/
+	 font-weight: bold;
+	 margin-top: 30px;
+	 color: #cc1;
+	 padding: 30px;
+	 margin-bottom: 10px;
+}
+.section2{
+	margin-top: 80px;
+}
+.content3{
+	background-image: url('kqr.jpg');
+	height: 100vh;
+	width: 100%;
+	background-repeat:no-repeat ;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	position: relative;
+}
+.part1 > h1{
+	font-size: 4em;
+	color: orangered;
+	position: absolute;
+	top: 150.678px;
+	right: 200px;
+	font-family: "Brush Script MT", cursive;;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.part1 > h2{
+	font-size: 3em;
+	color: whitesmoke;
+	position: absolute;
+	top: 250.564px;
+	right: 110px;
+	font-family:'Courier New', monospace; ;
+
+}
+.content4{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	
+}
+.image-container{
+	display: grid;
+	grid-template-columns: repeat(2, 0fr);
+    grid-template-rows: repeat(2, 0fr);
+	column-gap: normal;
+	row-gap: normal;
+	height: 50%;
+	width: 100;
+	margin-top: 70px;
+	margin-left: 30px;
+}
+.part2{
+	margin-left: 70px;
+}
+.part2 > h1{
+     font-size: 2em;
+	color: orangered;
+	font-family:  Copperplate, Papyrus, fantasy;
+	text-transform: capitalize;
+	margin-top: 10px;    
+}
+.part2 > h2{
+	font-size: 2em;
+	color: black;
+	font-family:  Copperplate, Papyrus, fantasy;
+	text-transform: capitalize;
+}
+.type1{
+	display: flex;
+}
+.type1 >p{
+	font-size: 1.5em;
+	font-family: monospace;
+	align-items: justify;
+	margin-left: 10px;
+	width: 70%;
+	color: #777777;
+	text-align: justify;
+	text-transform: capitalize;
+	margin-right: 20px;
+}
+.type2{
+	display: flex;
+	margin-top: 20px;
+}
+.type2 >p{
+	font-size: 1.5em;
+	font-family: monospace;
+	margin-left: 10px;
+	width: 70%;
+	color: #777777;
+	text-align: justify;
+	text-transform: capitalize;
+	margin-right: 20px;
+}
+span{
+	color: #008080;
+	font-size: 1.3em;
+	font-weight: bold;
+	
+}
+.content5{
+	margin-top: 20px;
+}
+.content5{
+	background-image: url('dining5.avif');
+	height: 100vh;
+	width: 100%;
+	background-repeat:no-repeat ;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	position: relative;
+
+}
+.type3 > h1{
+	font-size: 4em;
+	color: orangered;
+	position: absolute;
+	top: 250.567px;
+	left: 480.678px;
+	letter-spacing: 0.1em;
+	font-family:"Brush Script MT", cursive;
+}
+.type3 > h2{
+	font-size: 3em;
+	color: ghostwhite;
+	position: absolute;
+	top: 350.567px;
+	left: 350.678px;
+	
+	font-family:'Courier New', monospace;
+}
+.content6{
+	justify-content: space-around;
+	margin-left: 30px;
+	margin-top: 30px;
+
+}
+.type4{
+	display: flex;
+}
+.type4 > img{
+
+	max-width: 100%;
+	margin-top: 60px;
+
+}
+.type5{
+	text-transform: capitalize;
+	margin-left: 50px;
+	padding: 30px;
+	padding-right: 25px;
+}
+.type5 > h1{
+    font-size: 2.8em;
+    color: orangered;
+    font-family:"Brush Script MT", cursive ;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+    text-align: center;
+}
+.type5 >h2{
+	font-size: 3em;
+	color: black;
+	font-family:Copperplate, Papyrus, fantasy;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.type5 >ul{
+	display: flex;
+	margin-right: 20px;
+	margin-bottom: 70px;
+
+}
+.type5 >ul > li{
+       font-size: 1.6em;
+     font-weight: bolder;
+     color:orangered;	 
+}
+.type5 > p{
+     font-size: 1.5em ;
+     color: #777777;
+     margin-bottom: 50px;
+     text-transform: none;
+     text-align: justify;
+     padding-right: 20px;
+}
+.content7{
+	background-image: url('menu.jpg');
+	height: 100vh;
+	width: 100%;
+	background-repeat:no-repeat ;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	position: relative;
+}
+.content7 > h1{
+	font-size: 2.5em;
+	color: orangered;
+	position: absolute;
+	top: 324.567px;
+	right: 160.876px;
+	font-family:"Segoe Script";
+	text-transform: none;
+	font-weight: bold;
+}
+.content7 > h2{
+	font-size: 2.1em;
+	color: antiquewhite ;
+	position: absolute;
+	top: 410.654px;
+	right: 128.345px;
+	font-weight: bold;
+}
+.footer{
+	background-color:black;
+
+	
+}
+.footer >h6{
+	  font-size: 1.8em;
+	  text-align: center;
+      text-transform: capitalize;
+      font-family: serif;
+      padding: 20px;
+      width: auto;
+      margin: 0px;
+      color: white;
+}
+.footer > h6 >span{
+	color: orangered;
+}
+.footer >h6 >span1{
+	color: #008080;
+}
+span1:hover{
+	cursor: pointer;
+
+}
+
+
+
